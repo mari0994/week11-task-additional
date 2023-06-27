@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1,h2,p,span,button{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(74, 30, 56);
+}
+
+body{
+    padding: 20px;
+}
+
+.title{
+    margin-bottom: 30px;
+}
+
+.card{
+    margin-bottom: 40px;
+    background-color: rgb(255, 238, 248);
+    display: flex;
+    column-gap: 60px;
+    align-items: center;
+}
+
+.picture{
+    width: 20%;
+    margin: 20px;
+}
+
+.info{
+    width: 50%;
+}
+
+.description{
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-bottom: 10px;
+
+}
+
+.product-title{
+    font-size: 20px;
+}
+
+.price{
+    padding-right: 20px;
+}
+
+.price-price{
+    padding-left: 5px;
+}
+
+.total-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-calculate{
+    height: 60px;
+    width: 300px;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: rgb(74, 30, 56);
+    color: rgb(255, 238, 248);
+    border:none;
+    font-weight: bold;
+}
+
+.btn-calculate:hover{
+    background-color: rgb(146, 60, 110);
+}
+
+.total{
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.total-price{
+    font-size: 18px;
+}
+
+.total-price-price{
+    padding-left: 5px;
+}
