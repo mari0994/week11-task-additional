@@ -12,7 +12,7 @@ const sumBefore = firstPriceNumber + secondPriceNumber + thirdPriceNumber + four
 
 function calculatePrice(){
     const sumDiscount = document.querySelector('.total-price-quantity');
-    sumDiscount.textContent = sumBefore - sumBefore * 0.2;
+    sumDiscount.textContent = (sumBefore - sumBefore * 0.2).toFixed(2);
 }
 
 const button = document.querySelector('.btn-calculate');
